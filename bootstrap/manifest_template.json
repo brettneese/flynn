@@ -41,7 +41,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/discoverd&id=$image_id[discoverd]"
     },
     "processes": {
@@ -69,7 +69,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/flannel&id=$image_id[flannel]"
     },
     "processes": {
@@ -120,7 +120,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/postgresql&id=$image_id[postgresql]"
     },
     "processes": {
@@ -202,7 +202,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/controller&id=$image_id[controller]"
     },
     "processes": {
@@ -304,7 +304,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/redis&id=$image_id[redis]"
     },
     "processes": {
@@ -358,7 +358,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/mariadb&id=$image_id[mariadb]"
     },
     "processes": {
@@ -410,7 +410,7 @@
       }
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/mongodb&id=$image_id[mongodb]"
     },
     "processes": {
@@ -432,7 +432,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/blobstore&id=$image_id[blobstore]"
     },
     "release": {
@@ -456,7 +456,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/router&id=$image_id[router]"
     },
     "release": {
@@ -487,7 +487,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/gitreceive&id=$image_id[gitreceive]"
     },
     "release": {
@@ -526,7 +526,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/docker-receive&id=$image_id[docker-receive]"
     },
     "release": {
@@ -603,7 +603,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/logaggregator&id=$image_id[logaggregator]"
     },
     "release": {
@@ -629,7 +629,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/taffy&id=$image_id[taffy]"
     },
     "release": {
@@ -653,7 +653,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/dashboard&id=$image_id[dashboard]"
     },
     "release": {
@@ -704,7 +704,7 @@
       "meta": {"flynn-system-app": "true"}
     },
     "artifact": {
-      "type": "docker",
+      "type": "flynn",
       "uri": "$image_repository?name=flynn/status&id=$image_id[status]"
     },
     "release": {
